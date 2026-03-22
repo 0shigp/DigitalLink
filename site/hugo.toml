@@ -1,0 +1,30 @@
+baseURL = "https://digitallink.co.jp/"
+languageCode = "ja"
+title = "合同会社デジタルリンク"
+theme = ""
+
+[params]
+  description = "Web技術を活用した教育サービス・システム開発・Webサイト制作"
+  company = "合同会社デジタルリンク"
+  address = "千葉県流山市おおたかの森南三丁目５番地の２９"
+  representative = "張 芬"
+  founded = "2026年3月3日"
+  email = "info@digitallink.co.jp"
+
+[menu]
+  [[menu.main]]
+    name = "ホーム"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "会社概要"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "サービス"
+    url = "/services/"
+    weight = 3
+  [[menu.main]]
+    name = "お問い合わせ"
+    url = "/contact/"
+    weight = 4
