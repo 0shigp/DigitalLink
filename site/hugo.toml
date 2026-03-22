@@ -1,7 +1,7 @@
 baseURL = "https://digitallink.co.jp/"
 languageCode = "ja"
 title = "合同会社デジタルリンク"
-theme = ""
+
 
 [params]
   description = "Web技術を活用した教育サービス・システム開発・Webサイト制作"
