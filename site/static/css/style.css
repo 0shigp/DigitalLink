@@ -266,3 +266,21 @@ img { max-width: 100%; }
 @media (max-width: 480px) {
   .nav { display: none; }
 }
+
+/* ===== Coming Soon Badge ===== */
+.badge-soon {
+  display: inline-block;
+  background: #f59e0b;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+.card-coming-soon {
+  border-color: #fde68a;
+  background: #fffbeb;
+}
