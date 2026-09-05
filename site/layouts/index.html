@@ -1,68 +1,289 @@
 {{ define "main" }}
+
+<!-- Hero Section -->
 <section class="hero">
-  <div class="container">
-    <h1>Web技術で、<br>未来をつなぐ。</h1>
-    <p class="hero-sub">教育・システム開発・Webサイト制作を通じて、<br>お客様のビジネスをデジタルで支援します。</p>
-    <div class="hero-buttons">
-      <a href="/services/" class="btn btn-primary">サービスを見る</a>
-      <a href="/contact/" class="btn btn-outline">お問い合わせ</a>
+  <div class="container hero-container">
+    <div class="hero-label">
+      <span class="hero-label-dot"></span>
+      <span>Technology Company</span>
+    </div>
+    
+    <h1 class="hero-title">
+      Connect Business<br>with Technology.
+    </h1>
+    
+    <p class="hero-subtitle">
+      AI × Software × Digital Solutions
+    </p>
+    
+    <p class="hero-description">
+      合同会社デジタルリンクは、AI・ソフトウェア・デジタル技術を活用し、<br>
+      ビジネスの成長と変革を支援するテクノロジーカンパニーです。
+    </p>
+    
+    <div class="hero-cta">
+      <a href="/services/" class="btn btn-primary">
+        <span>Explore Our Services</span>
+        <span class="btn-icon">→</span>
+      </a>
+      <a href="/contact/" class="btn btn-secondary">
+        <span>Contact Us</span>
+      </a>
     </div>
   </div>
+  
+  <div class="scroll-indicator"></div>
 </section>
 
-<section class="services-overview section">
+<!-- Services Overview Section -->
+<section class="section">
   <div class="container">
-    <h2 class="section-title">提供サービス</h2>
-    <div class="cards">
+    <div class="section-header">
+      <span class="section-label">SERVICES</span>
+      <h2 class="section-title">
+        技術で、ビジネスの可能性を拡げる
+      </h2>
+      <p class="section-description">
+        AI、ソフトウェア開発、教育テクノロジーを核に、<br>
+        お客様のデジタルトランスフォーメーションを実現します。
+      </p>
+    </div>
+    
+    <div class="card-grid">
       <div class="card">
-        <div class="card-icon">🎓</div>
-        <h3>オンライン教育</h3>
-        <p>資格試験対策プラットフォーム「Exampass」。AI学習分析で効率的な合格をサポートします。</p>
-        <a href="/services/#exampass" class="card-link">詳しく見る →</a>
+        <div class="card-icon">🤖</div>
+        <h3 class="card-title">AI Solutions</h3>
+        <p class="card-description">
+          生成AI、LLM、AI Agentなどの最新技術を活用した業務効率化・システム開発。RAG（Retrieval-Augmented Generation）による高度な情報処理を実現します。
+        </p>
+        <a href="/services/#ai-solutions" class="card-link">
+          <span>Learn More</span>
+          <span>→</span>
+        </a>
       </div>
+      
       <div class="card">
         <div class="card-icon">💻</div>
-        <h3>システム開発</h3>
-        <p>企業向けWebシステムの受託開発。業務管理システムからWebアプリまで対応します。</p>
-        <a href="/services/#system" class="card-link">詳しく見る →</a>
+        <h3 class="card-title">Software Development</h3>
+        <p class="card-description">
+          Web Application、Backend API、Enterprise Systemなど、モダンな技術スタックを用いた高品質なソフトウェア開発を提供します。
+        </p>
+        <a href="/services/#software-development" class="card-link">
+          <span>Learn More</span>
+          <span>→</span>
+        </a>
       </div>
+      
       <div class="card">
-        <div class="card-icon">🌐</div>
-        <h3>Webサイト制作</h3>
-        <p>コーポレートサイトから個人サイトまで、目的に合ったWebサイトを制作します。</p>
-        <a href="/services/#web" class="card-link">詳しく見る →</a>
+        <div class="card-icon">📚</div>
+        <h3 class="card-title">Education Technology</h3>
+        <p class="card-description">
+          オンライン教育・資格学習・AIを活用したLearning Technology。自社サービス「ExamPass」で学習体験を革新します。
+        </p>
+        <a href="/services/#education-technology" class="card-link">
+          <span>Learn More</span>
+          <span>→</span>
+        </a>
       </div>
-      <div class="card card-coming-soon">
-        <div class="card-icon">🛒</div>
-        <h3>ネットショップ <span class="badge-soon">近日公開</span></h3>
-        <p>ECサイト・ネットショップを開設予定です。販売商品は現在検討中。続報をお待ちください。</p>
-        <a href="/services/#ec" class="card-link">詳しく見る →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="exampass-banner section">
-  <div class="container">
-    <div class="banner-content">
-      <div class="banner-text">
-        <h2>Exampass</h2>
-        <p class="banner-sub">AI搭載の試験対策プラットフォーム</p>
-        <p>問題演習・模擬試験・学習進捗管理・AIによる個別指導を提供。<br>資格試験合格への最短ルートをサポートします。</p>
-        <a href="https://exampass.jp" class="btn btn-primary" target="_blank" rel="noopener">サービスサイトへ</a>
-      </div>
-      <div class="banner-badge">
-        <span>2026年<br>正式公開予定</span>
+      
+      <div class="card">
+        <div class="card-icon">🌏</div>
+        <h3 class="card-title">Global Business</h3>
+        <p class="card-description">
+          日本・中国を中心としたグローバルなIT・デジタルビジネス支援。多言語・多文化に対応したソリューションを提供します。
+        </p>
+        <a href="/services/#global-business" class="card-link">
+          <span>Learn More</span>
+          <span>→</span>
+        </a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="about-brief section">
+<!-- Technology Section -->
+<section class="section section-dark">
   <div class="container">
-    <h2 class="section-title">会社について</h2>
-    <p class="about-text">合同会社デジタルリンクは、千葉県流山市を拠点に、Web技術を活用した教育サービスおよびシステム開発事業を展開しています。テクノロジーの力で人と情報をつなぎ、学びと成長を支援します。</p>
-    <a href="/about/" class="btn btn-outline">会社概要を見る</a>
+    <div class="section-header">
+      <span class="section-label">TECHNOLOGY</span>
+      <h2 class="section-title">
+        最先端の技術スタック
+      </h2>
+      <p class="section-description">
+        モダンで信頼性の高い技術を活用し、<br>
+        高品質なソリューションを提供します。
+      </p>
+    </div>
+    
+    <div class="tech-grid">
+      <div class="tech-category">
+        <h3 class="tech-category-title">
+          <span>⚡</span>
+          <span>AI & Machine Learning</span>
+        </h3>
+        <div class="tech-items">
+          <span class="tech-item">Generative AI</span>
+          <span class="tech-item">LLM</span>
+          <span class="tech-item">AI Agent</span>
+          <span class="tech-item">RAG</span>
+          <span class="tech-item">OpenAI</span>
+          <span class="tech-item">Claude</span>
+        </div>
+      </div>
+      
+      <div class="tech-category">
+        <h3 class="tech-category-title">
+          <span>🔧</span>
+          <span>Backend</span>
+        </h3>
+        <div class="tech-items">
+          <span class="tech-item">Python</span>
+          <span class="tech-item">Django</span>
+          <span class="tech-item">Java</span>
+          <span class="tech-item">Spring</span>
+          <span class="tech-item">C#</span>
+          <span class="tech-item">Node.js</span>
+        </div>
+      </div>
+      
+      <div class="tech-category">
+        <h3 class="tech-category-title">
+          <span>🎨</span>
+          <span>Frontend</span>
+        </h3>
+        <div class="tech-items">
+          <span class="tech-item">Next.js</span>
+          <span class="tech-item">React</span>
+          <span class="tech-item">TypeScript</span>
+          <span class="tech-item">JavaScript</span>
+          <span class="tech-item">HTML/CSS</span>
+        </div>
+      </div>
+      
+      <div class="tech-category">
+        <h3 class="tech-category-title">
+          <span>☁️</span>
+          <span>Infrastructure</span>
+        </h3>
+        <div class="tech-items">
+          <span class="tech-item">Docker</span>
+          <span class="tech-item">Linux</span>
+          <span class="tech-item">Cloudflare</span>
+          <span class="tech-item">PostgreSQL</span>
+          <span class="tech-item">Redis</span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
+<!-- Product Spotlight - ExamPass -->
+<section class="section feature-section">
+  <div class="container">
+    <div class="feature-grid">
+      <div class="feature-content">
+        <span class="section-label">PRODUCT</span>
+        <h3>ExamPass</h3>
+        <p>
+          AI搭載の次世代学習プラットフォーム。資格試験対策・問題演習・学習分析を一つに統合し、効率的な学習体験を提供します。
+        </p>
+        
+        <ul class="feature-list">
+          <li>AI による個別最適化学習</li>
+          <li>豊富な問題演習と模擬試験</li>
+          <li>詳細な学習進捗管理</li>
+          <li>スマートフォン対応</li>
+        </ul>
+        
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <a href="https://exampass.jp" class="btn btn-primary" target="_blank" rel="noopener">
+            <span>Visit ExamPass</span>
+            <span class="btn-icon">→</span>
+          </a>
+          <span style="display: inline-flex; align-items: center; padding: 0.875rem 1.75rem; background: var(--color-gray-200); border-radius: var(--radius-lg); font-size: 0.875rem; font-weight: 600; color: var(--color-gray-700);">
+            2026年 正式公開予定
+          </span>
+        </div>
+      </div>
+      
+      <div class="feature-visual">
+        <div style="text-align: center; color: var(--color-gray-400);">
+          <div style="width: 80px; height: 80px; margin: 0 auto 1.5rem; background: linear-gradient(135deg, var(--color-primary), var(--color-accent)); border-radius: var(--radius-2xl); display: flex; align-items: center; justify-content: center; font-size: 2.5rem;">
+            📚
+          </div>
+          <h4 style="font-size: 1.25rem; font-weight: 700; color: var(--color-gray-700); margin-bottom: 0.5rem;">ExamPass Platform</h4>
+          <p style="font-size: 0.9375rem; color: var(--color-gray-500);">AI-Powered Learning Experience</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Company Vision -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">VISION</span>
+      <h2 class="section-title">
+        テクノロジーで、未来をつくる
+      </h2>
+      <p class="section-description">
+        私たちは、Web技術を通じて人と情報をつなぎ、<br>
+        学びと成長を支援することを使命としています。
+      </p>
+    </div>
+    
+    <div style="max-width: 960px; margin: 0 auto;">
+      <div style="background: var(--color-white); border: 1px solid var(--color-gray-200); border-radius: var(--radius-2xl); padding: var(--space-3xl); box-shadow: var(--shadow-md);">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-3xl); text-align: center;">
+          <div>
+            <div style="font-size: 2rem; margin-bottom: var(--space-md);">🎯</div>
+            <h4 style="font-size: 1rem; font-weight: 700; color: var(--color-navy-950); margin-bottom: var(--space-sm);">Innovation</h4>
+            <p style="font-size: 0.9375rem; color: var(--color-gray-600);">最新技術で革新を</p>
+          </div>
+          <div>
+            <div style="font-size: 2rem; margin-bottom: var(--space-md);">🤝</div>
+            <h4 style="font-size: 1rem; font-weight: 700; color: var(--color-navy-950); margin-bottom: var(--space-sm);">Trust</h4>
+            <p style="font-size: 0.9375rem; color: var(--color-gray-600);">信頼される技術力</p>
+          </div>
+          <div>
+            <div style="font-size: 2rem; margin-bottom: var(--space-md);">🌏</div>
+            <h4 style="font-size: 1rem; font-weight: 700; color: var(--color-navy-950); margin-bottom: var(--space-sm);">Global</h4>
+            <p style="font-size: 0.9375rem; color: var(--color-gray-600);">グローバル展開</p>
+          </div>
+          <div>
+            <div style="font-size: 2rem; margin-bottom: var(--space-md);">⚡</div>
+            <h4 style="font-size: 1rem; font-weight: 700; color: var(--color-navy-950); margin-bottom: var(--space-sm);">Excellence</h4>
+            <p style="font-size: 0.9375rem; color: var(--color-gray-600);">高品質へのこだわり</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <h2 class="cta-title">
+        プロジェクトを始めましょう
+      </h2>
+      <p class="cta-description">
+        AI、ソフトウェア開発、デジタルソリューションに関するご相談は、<br>
+        お気軽にお問い合わせください。
+      </p>
+      <div style="display: flex; gap: var(--space-lg); justify-content: center; flex-wrap: wrap;">
+        <a href="/contact/" class="btn btn-primary">
+          <span>Contact Us</span>
+          <span class="btn-icon">→</span>
+        </a>
+        <a href="/about/" class="btn btn-secondary">
+          <span>About Company</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 {{ end }}

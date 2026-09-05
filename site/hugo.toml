@@ -1,30 +1,42 @@
 baseURL = "https://digitallink.co.jp/"
 languageCode = "ja"
-title = "合同会社デジタルリンク"
-
+title = "合同会社デジタルリンク | Digital Link LLC"
+defaultContentLanguage = "ja"
 
 [params]
-  description = "Web技術を活用した教育サービス・システム開発・Webサイト制作"
+  description = "AI・ソフトウェア・デジタル技術で、ビジネスの未来を創造するテクノロジーカンパニー"
   company = "合同会社デジタルリンク"
+  companyEn = "Digital Link LLC"
   address = "千葉県流山市おおたかの森南三丁目５番地の２９"
   representative = "張 芬"
   founded = "2026年3月3日"
   email = "info@digitallink.co.jp"
+  tagline = "Connect Business with Technology"
+  keywords = "AI,Software Development,生成AI,LLM,Web開発,システム開発,教育テクノロジー,ExamPass"
 
 [menu]
   [[menu.main]]
-    name = "ホーム"
+    name = "Home"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "会社概要"
+    name = "About"
     url = "/about/"
     weight = 2
   [[menu.main]]
-    name = "サービス"
+    name = "Services"
     url = "/services/"
     weight = 3
   [[menu.main]]
-    name = "お問い合わせ"
-    url = "/contact/"
+    name = "Technology"
+    url = "/technology/"
     weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
